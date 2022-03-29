@@ -11,7 +11,7 @@ public class WelcomeController {
 	public ModelAndView displayWelcomeMsg() {
 		
 		ModelAndView mva = new ModelAndView();
-		mva.addObject("msg", "Welcome to Spring Boot!!!!!!!!!!");
+		mva.addObject("msg", "Welcome to Spring Boot!!!!!!!!!! Changes added");
 		mva.setViewName("welcome");
 		
 		return mva;
