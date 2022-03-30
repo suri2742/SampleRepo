@@ -14,7 +14,7 @@ public class DateController {
 	public ModelAndView displayDate() {
 		
 		ModelAndView mva = new ModelAndView();
-		mva.addObject("msg","Today's date is "+new Date());
+		mva.addObject("msg","Today's date is  "+new Date());
 		mva.setViewName("welcome");
 		return mva;
 	}
